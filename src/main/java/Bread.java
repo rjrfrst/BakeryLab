@@ -1,21 +1,17 @@
-//public class Bread extends BakedGoods {
-//
-//    //Instance fields | properties
-//    //Just a name which BakedGoods already have
-//
-//    private boolean salt;
-//
-//    //Constructor
-//    public Bread(String name, boolean salt){
-//        super(name);
-//        this.salt = salt;
-//    }
-//
-//    //Method
-//    public
-//
-//
-//
-//
-//
-//}// Last curly bracket
+public class Bread extends BakedGoods {
+
+    //No properties added for this sub/child class
+
+    //Constructor
+    public Bread(String inputName,
+                 String inputIngredients,
+                 int inputSellPrice,
+                 int inputCostToMake){
+        super(inputName,
+                inputIngredients,
+                inputSellPrice,
+                inputCostToMake);
+
+    }
+
+} //Last curly brackets
