@@ -24,9 +24,13 @@ public class BakedGoods {
     //Method 1
     // method signature
     public int calculateMargin(){
+
         return this.sellPrice - this.costToMake;
+
     }
 
     //Getters && Setters
+
+
 
 } //Last curly bracket

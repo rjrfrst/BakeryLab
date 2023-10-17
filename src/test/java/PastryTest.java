@@ -14,14 +14,15 @@ public class PastryTest {
                 "Flour",
                 15,
                 7,
-                1);
+                2);
     }
 
     @Test
     //When && Then
     void canAddFilling(){
-        assertThat(pastry.addFilling()).isEqualTo(1);
+        assertThat(pastry.addFilling()).isEqualTo(2);
     }
+
 
 
 

@@ -19,7 +19,7 @@ public class BakedGoodsTest {
 
     @Test
     //When && Then
-    void canCalculateMargin(){
+    void canCalculateProfits(){
         assertThat(bakedGoods.calculateMargin()).isEqualTo(5);
     }
 

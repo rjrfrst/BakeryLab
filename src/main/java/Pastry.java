@@ -11,6 +11,7 @@ public class Pastry extends BakedGoods {
                   int  inputSellPrice,
                   int inputCostToMake,
                   int inputFillings){
+
         //The super relates back to BakedGoods
         super(inputName,
                 inputIngredients,
@@ -29,8 +30,6 @@ public class Pastry extends BakedGoods {
     public int addFilling(){
         return this.fillings;
     }
-
-
 
 
 
