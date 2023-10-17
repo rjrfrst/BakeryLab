@@ -44,17 +44,17 @@ public class Bakery {
     //Loop through the bakedGoods in the bakery.
     //count the total of the calculateMargin.
 
-    //Code skipped
+//    Code skipped
 //    public int calculateProfits(){
 //        int totalProfits = 0;
 //        for (int i = 0; totalProfits < this.bakedGoods.size(); i++){
-//            BakedGoods bakery = (BakedGoods) this.bakedGoods.get(i);
+//            BakedGoods bakedGoods = this.bakedGoods.get(i);
 //            totalProfits += 1;
 //
 //        }
 //        return totalProfits;
 //    }
-//
+
 
 
     

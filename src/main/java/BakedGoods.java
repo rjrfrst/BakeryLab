@@ -1,6 +1,6 @@
 
 // We have to change this to an abstract: check or not
-public class BakedGoods {
+public abstract class BakedGoods {
 
     //Inheritance fields | properties
     //Make sure to change private to protected: check or not

@@ -31,6 +31,12 @@ public class Pastry extends BakedGoods {
         return this.fillings;
     }
 
+    //Attempting Question 5. Implementing at least 1 method overload
+    public int addFilling(int flavor){
+        flavor = 5;
+        return flavor;
+    }
+
 
 
 }// Last curly bracket

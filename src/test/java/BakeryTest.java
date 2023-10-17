@@ -27,10 +27,10 @@ public class BakeryTest {
     void canAddBakedGoods(){
         //When && Then
         //Creating one type of baked good for this test.
-        BakedGoods bakedGoods = new BakedGoods("cake",
-                "flour",
-                30,
-                15);
+//        BakedGoods bakedGoods = new BakedGoods("cake",
+//                "flour",
+//                30,
+//                15);
         bakery.addBakedGoods(bakedGoods);
         assertThat(bakery.countStock()).isEqualTo(1);
     }
@@ -40,10 +40,10 @@ public class BakeryTest {
     void canAddMultipleBakedGoods(){
         //When && Then
         //Create two - three types of baked goods going to the bakery for this test
-        BakedGoods bakedGoods = new BakedGoods("cake",
-                "flour",
-                30,
-                15);
+//        BakedGoods bakedGoods = new BakedGoods("cake",
+//                "flour",
+//                30,
+//                15);
         Cake cake = new Cake("Carrot",
                 "flour",
                 30,
